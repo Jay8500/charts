@@ -1,10 +1,10 @@
 import { Component, ElementRef, OnInit, ViewChild, AfterViewInit, OnDestroy, NgZone } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+// import { RouterOutlet } from '@angular/router';
 import ApexCharts from 'apexcharts';
 import { interval, Subscription } from 'rxjs';
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
